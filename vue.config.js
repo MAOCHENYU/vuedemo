@@ -39,7 +39,7 @@ module.exports = {
     },
     proxy:{
         [process.env.VUE_APP_BASE_API]: {
-          target: 'http://192.168.1.21:7331', // 需要进行跨域的域名
+          target: 'xxx', // 需要进行跨域的域名
           changeOrigin: true, // 是否跨域  true则是 false则否
           pathRewrite: {
             ['^' + process.env.VUE_APP_BASE_API]: '' // 重写接口
