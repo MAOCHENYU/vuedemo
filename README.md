@@ -1,2 +1,2 @@
 # vueDemo
-vueDemo test
+vueDemo
